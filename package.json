@@ -1,6 +1,6 @@
 {
   "name": "scrolly-gif",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Animate a gif based on user scroll",
   "main": "index.js",
   "scripts": {
