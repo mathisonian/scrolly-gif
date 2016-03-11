@@ -3,6 +3,7 @@ Animate a gif as the user scrolls the page
 
 This is mostly a wrapper around https://github.com/buzzfeed/libgif-js
 
+Examples: http://mathisonian.github.io/scrolly-gif/
 
 ## install
 
