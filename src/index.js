@@ -1,9 +1,4 @@
-
 var SuperGif = require('../lib/lib-gif');
-
-
-console.log(SuperGif);
-
 
 module.exports = function(elt) {
 
