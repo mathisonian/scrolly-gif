@@ -1,0 +1,25 @@
+{
+  "name": "scrolly-gif",
+  "version": "1.0.0",
+  "description": "Animate a gif based on user scroll",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathisonian/scrolly-gif.git"
+  },
+  "keywords": [
+    "gif",
+    "scroll",
+    "animate",
+    "scrolly"
+  ],
+  "author": "Matthew Conlen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathisonian/scrolly-gif/issues"
+  },
+  "homepage": "https://github.com/mathisonian/scrolly-gif#readme"
+}
