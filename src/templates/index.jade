@@ -1,0 +1,88 @@
+extends layout
+
+
+block content
+  .documentation-container.section-header
+    .row.section-header
+      .column-8.push-2.details-container
+        .row.section-header
+          .column-12.centered
+            h1.top-title
+              | scrolly-gif
+            h4
+              a(href="https://github.com/mathisonian/scrolly-gif")
+                | View on Github
+                
+            
+        .row.section-header
+          .column-12.centered.section-header
+            h2
+              | Installation
+              
+        .row
+          .column-8.push-2
+            pre
+              code.
+                $ npm install scrolly-gif
+                
+        .row.section-header
+          .column-12.centered.section-header
+            h2
+              | Usage
+              
+        .row
+          .column-8.push-2
+            pre
+              code
+                | // place an image tag on the page like this:
+                | // < img class="gif-example" src="preview.png" rel:animated_src="example.gif" />
+                | 
+                | // example with jQuery
+                | // Pass the dom element to scrollyGif however
+                | // is convenient for you.
+                | var scrollyGif = require('scrolly-gif');
+                | 
+                | $('img.gif-example').each(function() {
+                |   scrollyGif(this);
+                | });
+
+                                
+        .row.section-header
+          .column-12.centered
+            h2
+              | Introduction
+              
+        .row
+          .column-8.push-2        
+            p
+              | This library will automatically animate a gif as a user scrolls through the page. The animation starts
+              | when the gif fully enters the viewport and ends when it exits. 
+              | Scroll down to see examples below. All gifs
+              | were found on 
+              a(href="http://publicdomaingifs.tumblr.com/")
+                | http://publicdomaingifs.tumblr.com/
+              | .
+
+        .row
+          .column-12
+            .gif-example
+              img(src="./images/examples/1/preview.png", rel:animated_src="./images/examples/1/example.gif")
+              
+            .gif-example
+              img(src="./images/examples/2/preview.png", rel:animated_src="./images/examples/2/example.gif")
+              
+            .gif-example
+              img(src="./images/examples/3/preview.png", rel:animated_src="./images/examples/3/example.gif")
+              
+            .gif-example
+              img(src="./images/examples/4/preview.png", rel:animated_src="./images/examples/4/example.gif")
+
+              
+            .gif-example
+              img(src="./images/examples/5/preview.png", rel:animated_src="./images/examples/5/example.gif")
+
+        .row
+          .column-12.centered
+            h4
+              a(href="https://github.com/mathisonian/scrolly-gif")
+                | View on Github

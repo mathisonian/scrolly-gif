@@ -1,0 +1,97 @@
+
+
+.documentation-container {
+
+    a {
+        outline: none;
+        color: darken($purple, 5%);
+
+    }
+    a:visited {
+        color: darken($purple, 5%);
+    }
+
+
+    .row {
+        max-width: none;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .empty-container {
+        z-index: -20;
+    }
+
+    .overview-container {
+        background-color: #f6f7fa;
+        height: 100%;
+        // z-index: -10;
+        position: fixed;
+        overflow-y: auto;
+
+        max-width: 275px;
+
+        section {
+            padding: 30px 10%;
+            padding-bottom: 0;
+
+            > a {
+                font-family: 'AvenirNext', sans-serif;
+                font-size: 22px;
+            }
+
+            > a:hover {
+                color: lighten($purple, 10%);
+            }
+
+            ul {
+                margin-top: 15px;
+                list-style-type: disc;
+                list-style-position: inside;
+                list-style-image: none;
+
+                li {
+                    list-style: inherit;
+                }
+                a, a:visited {
+                    color: #444;
+                }
+                a:hover {
+                    color: lighten(#444, 20%);
+                }
+            }
+
+            &:last-of-type {
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    .details-container {
+
+        // padding-left: 30px;
+        // padding-right: 30px;
+
+        section {
+            padding-top: 30px;
+
+            padding-left: 10px;
+
+            p {
+                // padding-left: 30px;
+            }
+        }
+
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .details-container {
+        float: none; margin-left: auto !important; margin-right: auto;
+    }
+
+}
